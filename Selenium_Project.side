@@ -1,0 +1,245 @@
+{
+  "id": "66718543-04b5-4641-bfdb-deb64af9c681",
+  "version": "2.0",
+  "name": "Selenium_Project",
+  "url": " http://book.theautomatedtester.co.uk",
+  "tests": [{
+    "id": "06942f34-cbfc-4b25-8651-c6087c202697",
+    "name": "TestCase_001",
+    "commands": [{
+      "id": "afd59967-b307-4adb-8c4c-ac74ea599e5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a25ad2b-f82b-46f5-99cb-fa4f2b2e5252",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=nav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/blog/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bddaf77-6d00-4d2a-9f4a-d274d0c858aa",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'GTmetrix Performance Blog')]", "xpath:innerText"]
+      ],
+      "value": "GTmetrix Performance Blog"
+    }, {
+      "id": "60e8e566-3597-402e-a617-7338084c0267",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=New SSL Timing in Waterfall Chart, Capacity Upgrades, and Other Updates",
+      "targets": [
+        ["linkText=New SSL Timing in Waterfall Chart, Capacity Upgrades, and Other Updates", "linkText"],
+        ["css=#post-10008 .entry-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'New SSL Timing in Waterfall Chart, Capacity Upgrades, and Other Updates')]", "xpath:link"],
+        ["xpath=//article[@id='post-10008']/div[2]/header/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://gtmetrix.com/blog/new-ssl-timing-in-waterfall-chart-capacity-upgrades-and-other-updates/')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div[2]/header/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New SSL Timing in Waterfall Chart, Capacity Upgrades, and Other Updates')]", "xpath:innerText"]
+      ],
+      "value": "New SSL Timing in Waterfall Chart, Capacity Upgrades, and Other Updates"
+    }, {
+      "id": "4386a240-4076-47c9-bf07-1b452ff15346",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#post-10008 p",
+      "targets": [
+        ["css=#post-10008 p", "css:finder"],
+        ["xpath=//article[@id='post-10008']/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//article[3]/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Whew! A lot of general improvements and maintenance were completed in this release.')]", "xpath:innerText"]
+      ],
+      "value": "General improvements and\\nmaintenance were completed in this release."
+    }, {
+      "id": "d3659864-ca24-43dd-96c5-6719a94c54a0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=nav .sprite-gtmetrix",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ac51d01e-466c-4a0c-8717-8ef5d90c0385",
+    "name": "TestCase_002",
+    "commands": [{
+      "id": "a61e5c76-1117-4746-a6f8-2e19f8b72d83",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7542969d-1ef6-48a7-b8fd-7499ab2bbf22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=nav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/blog/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3716496f-a886-42f6-9bbc-2c37dd44f7d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'GTmetrix Performance Blog')]", "xpath:innerText"]
+      ],
+      "value": "GTmetrix Performance Blog"
+    }, {
+      "id": "a09028c7-b898-46fd-ba35-202f875c16a3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#post-8769 .attachment-medium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32c5d285-3e18-4610-a076-1af1bff22abe",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=nav .sprite-gtmetrix",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f20c3b33-f79a-407f-bb32-2c80382a0a72",
+    "name": "TestCase_003",
+    "commands": [{
+      "id": "46c3650d-2040-44ad-9774-fadbd051a78e",
+      "comment": "",
+      "command": "open",
+      "target": "http://book.theautomatedtester.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1baaec3a-6cdb-469e-87fc-3abffe7e51ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x848",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ffa4032-2e4c-4c28-b4d0-be0fb9514298",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chapter1",
+      "targets": [
+        ["linkText=Chapter1", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapter1')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/chapter1')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chapter1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a0ab9e-5c6c-4aef-b348-0e1444a4a96f",
+      "comment": "",
+      "command": "click",
+      "target": "id=multiplewindow",
+      "targets": [
+        ["id=multiplewindow", "id"],
+        ["xpath=//div[@id='multiplewindow']", "xpath:attributes"],
+        ["xpath=//div[5]", "xpath:position"],
+        ["xpath=//div[contains(.,'Click this link to launch another window')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4047",
+      "windowTimeout": 2000
+    }, {
+      "id": "f637dd5f-d92a-4c9c-82dd-463973955efa",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5061e4ae-931a-4236-904c-875b79ab7de5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4047}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fafc82f-7bcc-419d-8808-1df323a081ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=popuptext",
+      "targets": [
+        ["id=popuptext", "id"],
+        ["css=#popuptext", "css:finder"],
+        ["xpath=//p[@id='popuptext']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Text within the pop up window')]", "xpath:innerText"]
+      ],
+      "value": "Text within the pop up window"
+    }, {
+      "id": "53bede09-1a37-425a-a7fe-c124ce7802db",
+      "comment": "",
+      "command": "click",
+      "target": "id=closepopup",
+      "targets": [
+        ["id=closepopup", "id"],
+        ["css=#closepopup", "css:finder"],
+        ["xpath=//p[@id='closepopup']", "xpath:attributes"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Close the Window')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "827fb545-4cbc-4d96-b66f-b5805cc88e73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4188e235-81a6-4e4a-97ec-2c3609b42e86",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a5fc96a-f963-4ab4-963d-efdbede1be48",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Selenium: Beginners Guide",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bec67fdb-865e-4e4d-a76b-58dbcd2fa988",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://gtmetrix.com/", "http://book.theautomatedtester.co.uk/"],
+  "plugins": []
+}
